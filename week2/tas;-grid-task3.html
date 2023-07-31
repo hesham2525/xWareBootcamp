@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>type 3</title>
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+      .flex-contaner {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+      }
+      .sub-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 79%;
+        height: 200px;
+      }
+      .flex-contaner > div {
+        text-align: center;
+        color: rgb(0, 0, 0);
+      }
+      .Header {
+        background-color: rgb(250, 68, 68);
+        width: 100%;
+        height: 20%;
+      }
+      .MENU {
+        background-color: rgb(230, 18, 18);
+        width: 20%;
+        height: 200px;
+      }
+      .SECTION1 {
+        background-color: yellow;
+        width: 70%;
+        /* height: 30%; */
+        height: 50%;
+      }
+      .SECTION2 {
+        background-color: green;
+        height: 50%;
+        width: 30%;
+        /* height: 30%; */
+      }
+      .SECTION3 {
+        background-color: blue;
+
+        width: 50%;
+        height: 50%;
+      }
+      .SECTION4 {
+        background-color: brown;
+
+        width: 50%;
+        height: 50%;
+      }
+      .FOOTER {
+        background-color: blueviolet;
+        width: 100%;
+        height: 15%;
+      }
+      .con1 {
+        display: flex;
+        width: 84%;
+        height: 200px;
+        flex-wrap: wrap;
+      }
+      .con2 {
+        display: flex;
+        width: 87%;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-contaner">
+      <div class="Header">Header</div>
+      <div class="MENU">MENU</div>
+      <div class="sub-container">
+        <div class="SECTION1">SECTION1</div>
+        <div class="SECTION2">SECTION2</div>
+        <div class="SECTION3">SECTION3</div>
+        <div class="SECTION4">SECTION4</div>
+      </div>
+      <div class="FOOTER">FOOTER</div>
+    </div>
+  </body>
+</html>

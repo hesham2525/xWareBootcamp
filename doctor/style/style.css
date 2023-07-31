@@ -1,0 +1,116 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.contaner {
+  background-image: url(../images/b7207af2e6078e81ce7ab484db59b0cf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  background-position: 50% 50%;
+}
+.discription {
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 7%;
+  background-color: rgba(16, 196, 169, 0.505);
+  display: inline-block;
+  width: 750px;
+  height: 300px;
+}
+.para {
+  padding-left: 10%;
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+.para2 {
+  padding-left: 10%;
+}
+.para3 {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.first {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 7%;
+  background-color: rgba(16, 196, 169, 1);
+  display: inline-block;
+  width: 214px;
+  height: 150px;
+  text-align: center;
+  padding-top: 2%;
+  color: aliceblue;
+}
+.second {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 7%;
+  background-color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  width: 541px;
+  height: 151px;
+  text-align: center;
+  padding-top: 2%;
+  color: rgb(0, 0, 0);
+}
+button{
+  font-weight: bold;
+  width: 90px;
+  height:45px;
+  margin-right: 419px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+.third {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 20%;
+  background-color: rgba(16, 196, 169, 1);
+  display: inline-block;
+  width: 214px;
+  height: 150px;
+  text-align: center;
+  padding-top: 2%;
+  color: aliceblue;
+}
+.forth {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 20%;
+  background-color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  width: 541px;
+  height: 151px;
+  text-align: center;
+  padding-top: 2%;
+  color: rgb(0, 0, 0);
+}
+.five {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 32%;
+  background-color: rgba(16, 196, 169, 1);
+  display: inline-block;
+  width: 214px;
+  height: 150px;
+  text-align: center;
+  padding-top: 2%;
+  color: aliceblue;
+}
+.seex {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 32%;
+  background-color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  width: 541px;
+  height: 151px;
+  text-align: center;
+  padding-top: 2%;
+  color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,362 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.headar {
+  background-color: rgb(0, 0, 0);
+  width: 103%;
+  height: 50px;
+  position: fixed;
+  /* top:0px; */
+  z-index: 280;
+  /* position: relative; */
+}
+.headar button {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  width: 150px;
+  height: 50px;
+  padding-right: 10px;
+  position: relative;
+  font-size: larger;
+  border: 1px solid black;
+}
+.headar button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+span {
+  padding-left: 100px;
+  margin-top: 10px;
+  font-size: 150%;
+}
+.s1 {
+  padding-left: 70px;
+  margin-top: 10px;
+}
+.img1 {
+  width: 43px;
+  height: 49px;
+  padding-left: 54%;
+  position: absolute;
+}
+.img2 {
+  width: 1900px;
+  height: auto;
+  /* position: relative; */
+}
+.text {
+  position: relative;
+}
+.para {
+  position: absolute;
+  margin-top: -8%;
+  left: 50%;
+  color: aliceblue;
+  font-size: 160%;
+}
+.para2 {
+  position: absolute;
+  margin-top: -5%;
+  left: 40%;
+  color: aliceblue;
+  font-size: 140%;
+}
+.band {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 200%;
+}
+.band2 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 60%;
+}
+.para3 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 60%;
+  padding-left: 100px;
+}
+
+.para4 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 60%;
+  padding-left: 100px;
+}
+.para5 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 60%;
+  padding-left: 100px;
+}
+.para6 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 60%;
+  padding-left: 100px;
+}
+.bandmember {
+  /* margin-bottom: 50%; */
+  margin-top: 5%;
+  position: relative;
+}
+.p1 {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-left: 550px;
+}
+.p2 {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-left: 120px;
+}
+.p3 {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-left: 120px;
+}
+.name {
+  margin-top: -1.5%;
+  padding-left: 28%;
+  word-spacing: 3250%;
+  font-size: small;
+  position: absolute;
+}
+.f-contaner {
+  margin-left: 150px;
+  position: absolute;
+  background-color: black;
+  width: 85%;
+  height: 46%;
+  margin-top: 15%;
+  /* position: relative; */
+}
+.p4 {
+  font-size: 40px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 3%;
+}
+.p5 {
+  font-size: 20px;
+  padding-top: 1%;
+
+  color: rgb(148, 148, 148);
+  text-align: center;
+}
+.s1-contaner {
+  margin-left: 150px;
+  /* position: absolute; */
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 13%;
+  margin-top: 5.9%;
+}
+.s2-contaner {
+  margin-left: 150px;
+  /* position: absolute; */
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 13%;
+  margin-top: 0.05%;
+}
+.s3-contaner {
+  margin-left: 150px;
+  /* position: absolute; */
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 13%;
+  margin-top: 0.05%;
+}
+/* .s1-contaner span{
+  font-size: 120%;
+  /* margin-top: 0%; */
+/* color: rgb(135, 135, 135) */
+/* } */
+.sapn1x {
+  font-size: 140%;
+  color: rgb(135, 135, 135);
+  padding-left: 1%;
+  margin-top: 10%;
+}
+.s1-contaner button {
+  background-color: rgb(240, 68, 68);
+  margin-left: 2%;
+  width: 11%;
+  height: 70%;
+  margin-top: 1%;
+}
+.s1-contaner button:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+.s2-contaner button {
+  background-color: rgb(240, 68, 68);
+  margin-left: 2%;
+  width: 11%;
+  height: 70%;
+  margin-top: 1%;
+  margin-left: 60px;
+}
+.s2-contaner button:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+.num {
+  margin-left: 90%;
+}
+.num:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.ses-contaner {
+  margin-left: 150px;
+  position: absolute;
+  background-color: black;
+  width: 85%;
+  height: 70%;
+  margin-top: 40%;
+}
+.pict1 {
+  background-color: aliceblue;
+  position: relative;
+  margin-left: 200px;
+  width: 22%;
+  height: 80%;
+  margin-top: 4%;
+}
+.pict2 {
+  background-color: aliceblue;
+  position: relative;
+  margin-left: 38%;
+  width: 22%;
+  height: 80%;
+  margin-top: -33.2%;
+}
+.pict3 {
+  background-color: aliceblue;
+  position: relative;
+  margin-left: 63%;
+  width: 22%;
+  height: 80%;
+  margin-top: -33.2%;
+}
+.newyork {
+  font-weight: bolder;
+  padding-left: 8%;
+  padding-top: 8%;
+  font-size: larger;
+}
+.date {
+  padding-left: 8%;
+  padding-top: 8%;
+  color: gray;
+}
+.dis {
+  font-size: large;
+  padding-left: 7%;
+  padding-top: 8%;
+}
+.main-button {
+  font-size: larger;
+  color: aliceblue;
+  background-color: black;
+  width: 45%;
+  height: 10%;
+  margin-left: 6%;
+  margin-top: 8%;
+}
+.main-button:hover {
+  background-color: rgb(255, 0, 0);
+}
+.third-contaner {
+  margin-left: 8px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 25%;
+  margin-top: 85%;
+}
+
+.contact {
+  padding-left: 40%;
+  margin-top: -6%;
+  font-size: xx-large;
+}
+.fan {
+  padding-left: 42%;
+  margin-top: 2%;
+  color: gray;
+}
+.input1 {
+  width: 177px;
+  height: 40px;
+  padding-left: 1%;
+  margin-left: 22%;
+  margin-top: 1%;
+}
+.input2 {
+  width: 180px;
+  height: 40px;
+  padding-left: 1%;
+  margin-left: 14px;
+}
+.input3 {
+  width: 395px;
+  height: 40px;
+  padding-left: 1%;
+  margin-left: 58%;
+  margin-top: 1%;
+}
+.send {
+  font-size: larger;
+  color: aliceblue;
+  background-color: black;
+  width: 8%;
+  height: 25%;
+  margin-left: 72%;
+  margin-top: 2%;
+}
+.send:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.s11 {
+  margin-top: 1%;
+  margin-left: 15%;
+}
+.s22 {
+  margin-top: 1%;
+  margin-left: 15%;
+}
+
+.s33 {
+  margin-top: 1%;
+  margin-left: 15%;
+}
+.pict4 {
+  width: 100%;
+  height: 90%;
+  margin-top: 115%;
+  padding-left: 10%;
+}
+.pict5 {
+  margin-top: 5%;
+  padding-left: 9%;
+  width: 100%;
+}
+.hesham {
+  padding-top: -10%;
+  padding: auto;
+}
+.screen {
+  margin-left: 18%;
+  margin-bottom: -7%;
+}

@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 60%;
+  min-height: auto;
+  margin: auto;
+  border: solid 1px black;
+  position: relative;
+  margin-top: 150px;
+}
+header {
+  background-color: rgb(223, 223, 223);
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+.picture > img {
+  width: 150px;
+  height: 150px;
+}
+span {
+  background-color: rgb(219, 112, 112);
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: -6px;
+  left: -34px;
+  width: 69px;
+  text-align: center;
+}
+.price {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.col {
+  color: grey;
+}
+.dicsription {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dicsription::first-line {
+  color: rgb(192, 33, 33);
+}
+.colors > div {
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.colors > div:nth-child(1) {
+  margin: 0 10px 0 0;
+}
+.col1 {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  float: left;
+}
+.col2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(74, 89, 219);
+  float: left;
+}
+.col3 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  float: left;
+}
+.col4 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 234, 0);
+  float: left;
+}
+.col5 {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  float: left;
+}
+.col6 {
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+  float: left;
+}
+
+.con2 {
+  padding-left: 15px;
+}
+.con1 {
+  margin-bottom: 10px;
+}
+button {
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
