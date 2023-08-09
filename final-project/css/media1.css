@@ -1,0 +1,24 @@
+@media (min-width: 1000px) and (max-width: 1400px) {
+     header .links a.main {
+        background-color: var(--main_coler);
+        width: 49.333333%;
+        color: rgb(0, 0, 0);
+    }
+    
+}
+@media (max-width: 1400px ){
+    .sub-contaner {
+        width: 80%;
+        margin: auto;
+        background-color: var(--main_coler);
+        height: 10000px;
+        text-align: center;
+      }
+    .posts ,.posts2, .posts3{
+        display: grid;
+
+    }
+    .posts img , .posts2 img , .posts3 img{
+        width: 100%;
+    }
+}

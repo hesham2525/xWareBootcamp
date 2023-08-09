@@ -1,0 +1,74 @@
+@media (min-width: 1000px) and (max-width: 1400px) {
+   
+    .contaner{
+        width: 78%;
+    }
+    .sub-contaner{
+        width: 78%;
+    }
+    .heading, .heading2 {
+        line-height: 65px;
+        font-size: 29px;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+    }
+    .item1 h1 {
+        margin-bottom: 40px;
+        margin-top: 10%;
+      }
+      .item1 h3 {
+        margin-bottom: 40px;
+        font-size: 25px;
+      }
+      .item1 P {
+        font-size: 22px;
+        width: 55%;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-bottom: 65px;
+      }
+      .Actions{
+        display: grid;
+      }
+    
+}
+@media (min-width: 1000px) and (max-width: 1400px) {
+   
+    table{
+        width: 10%;
+      }
+      .b9,
+      .b10,
+      .b11,
+      .b12,
+      .b99,
+      .b110,
+      .b111,
+      .b112 {
+            width: 26%;
+            margin-bottom: 50px;
+      }
+    .tabels table, .table2 table {
+      width: 65%;
+      margin: auto;
+    }
+    .border-right {
+      width: 65%;
+    
+    }
+    .input1 {
+      width: 23%;
+    }
+    select {
+      width: 55%;
+     
+    }
+    .txtarea {
+      width: 64%;
+    }
+    .PREFORMATTED pre {
+      width: 80%;
+     
+  }
+
+
+}
