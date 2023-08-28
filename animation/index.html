@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        width: 150px;
+        height: 120px;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        margin: 10%;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+        /* transition-delay:1s; */
+        
+      }
+      button:hover {
+        color: black;
+        background-color: red;
+        /* transform: skewX(20px); */
+        /* transform: translate(20px); */
+        transform: scale(1.5);
+      }
+      .b{
+        overflow: hidden;
+        width: 160px;
+        height: 130px;
+        background-color: blue;
+      }
+      /* list */
+      li {
+        font-size: 40px;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+        margin-left: 10%;
+      }
+      li:hover {
+        transform: translateX(20px);
+
+        /* يقبل قيم سالبه لو عايز اعكس اتجاه الحركه */
+        /* transform: rotateX(-90deg); */
+        transform: rotate(180deg) scale(1.5);
+        /* transform: skew(20deg, 0); */
+        transform: skew(20deg);
+
+        /* padding-left: 20px; */
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="b">
+        <button></button>
+    </div>
+    <ul>
+      <li>Hesahm</li>
+      <li>Rahma</li>
+      <li>Marwan</li>
+      <li>mofadal</li>
+    </ul>
+    <ul>
+      <li>Androw</li>
+      <li>Mark</li>
+      <li>merna</li>
+      <li>gourg</li>
+    </ul>
+  </body>
+</html>
